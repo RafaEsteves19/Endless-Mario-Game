@@ -21,23 +21,23 @@
         <header class="header">
             <div class="wrapper-topo">
                 <div class="coluna coluna-nome-jogador">
-                    <span class="titulo">Jogador</span>
-                    <span class="texto verde" id="txtNomeJogador">Nome Jogador</span>
+                    <span class="titulo">Player</span>
+                    <span class="texto verde" id="txtNomeJogador">Player's Name</span>
                 </div>
 
                 <img src="img/logo.png" class="img-logo">
 
                 <div class="placar">
                     <div class="coluna">
-                        <span class="titulo">Moedas</span>
+                        <span class="titulo">Coins</span>
                         <span class="texto amarelo" id="txtMoedas">00</span>
                     </div>
                     <div class="coluna">
-                        <span class="titulo">Estrelas</span>
+                        <span class="titulo">Stars</span>
                         <span class="texto vermelho" id="txtEstrelas">00</span>
                     </div>
                     <div class="coluna">
-                        <span class="titulo">Tempo</span>
+                        <span class="titulo">Time</span>
                         <span class="texto verde" id="txtTempo">00</span>
                     </div>
                 </div>
@@ -63,17 +63,17 @@
             <div class="wrapper-regras">
                 <div class="bloco-regras">
                     <img src="img/mario.png" class="img-regras">
-                    <span class="texto">Use a tecla <span class="vermelho">Arrow Up</span> para pular!</span>
+                    <span class="texto">Use the key <span class="vermelho">Arrow Up</span> to jump!</span>
                     <img src="img/teclado-up.png" alt="">
                 </div>
                 <div class="bloco-regras">
                     <img src="img/mario-voando.png" class="img-regras">
-                    <span class="texto">Use a tecla <span class="amarelo">Space</span> para voar!</span>
+                    <span class="texto">Use the key <span class="amarelo">Space</span> to fly!</span>
                     <img src="img/teclado-space.png" alt="">
                 </div>
                 <div class="bloco-regras">
                     <img src="img/mario-agachado.png" class="img-regras">
-                    <span class="texto">Use a tecla <span class="verde">Arrow Down</span> para abaixar!</span>
+                    <span class="texto">Use the key <span class="verde">Arrow Down</span> to squat!</span>
                     <img src="img/teclado-down.png" alt="">
                 </div>
             </div>
@@ -85,28 +85,28 @@
 
         <section class="modal-login active" id="modalLogin">
 
-            <h1 class="titulo"><span class="azul">Pronto</span> <span class="amarelo">para</span> <span
-                    class="vermelho">um</span> <span class="verde">novo</span> <span class="azul">desafio?</span></h1>
+            <h1 class="titulo"><span class="azul">Ready</span> <span class="amarelo">for</span> <span
+                    class="vermelho">a</span> <span class="verde">new</span> <span class="azul">challend?</span></h1>
 
             <input type="text" class="input-jogador" id="inputJogador" placeholder="Jogador..." onfocus="true">
 
-            <button class="btn-modal btn-start btn-red-tr" id="btnStart" disabled>Iniciar Jogo!</button>
+            <button class="btn-modal btn-start btn-red-tr" id="btnStart" disabled>Start!</button>
 
-            <p class="regras">Use a telca <span class="vermelho">"Arrow UP"</span>, <span class="verde">"Arrow
-                    Down"</span> ou <span class="azul">"Space"</span> do teclado para mover o Mario no jogo.</p>
+            <p class="regras">Use the key <span class="vermelho">"Arrow UP"</span>, <span class="verde">"Arrow
+                    Down"</span> or <span class="azul">"Space"</span> of the keyboard to move Mario.</p>
 
             <img src="img/mario3.png" class="img-mario img-mario3">
 
         </section>
 
         <section class="modal-game-over " id="modalGameOver">
-            <h1 class="titulo"><span class="azul">Que</span> <span class="amarelo">pena,</span> <span
-                    class="vermelho">Voce</span> <span class="verde">perdeu!</span></h1>
+            <h1 class="titulo"><span class="azul">Que</span> <span class="amarelo">pity,</span> <span
+                    class="vermelho">You</span> <span class="verde">lose!</span></h1>
             <img src="img/game-over.gif" class="img-game-over">
 
             <div class="wrapper-btn">
                 <button class="btn-modal btn-red-tr btn-ranking" id="btnRanking">Ranking</button>
-                <button class="btn-modal btn-red-tr btn-reiniciar" id="btnReiniciar">Reiniciar</button>
+                <button class="btn-modal btn-red-tr btn-reiniciar" id="btnReiniciar">Restart</button>
             </div>
 
             <img src="img/mario4.png" class="img-mario img-mario4">
@@ -122,21 +122,20 @@
             <div class="wrapper-tabela">
                 <table class="tabela" border="1" id="tabela">
                     <tr class="linha">
-                        <td class="coluna">Posicao</td>
-                        <td class="coluna">Jogador</td>
-                        <td class="coluna">Moedas</td>
-                        <td class="coluna">Estrelas</td>
-                        <td class="coluna">Tempo</td>
-                        <td class="coluna">Pontuacao</td>
+                        <td class="coluna">Rank</td>
+                        <td class="coluna">Player</td>
+                        <td class="coluna">Coins</td>
+                        <td class="coluna">Stars</td>
+                        <td class="coluna">Time</td>
+                        <td class="coluna">Score</td>
                     </tr>
                 </table>
             </div>
 
 
-            <p class="regras">**Regra: Cada moeda coletada vale 2 pontos, cada estrela vale 5 pontos e cada segundo do
-                jogo vale 1 ponto.</p>
+            <p class="regras">**Rule: Each coin collected is worth 2 points, each star is worth 5 points and each second of thegame is worth 1 point.</p>
 
-            <button class="btn-modal btn-red-tr" id="btnReiniciar">Reiniciar</button>
+            <button class="btn-modal btn-red-tr" id="btnReiniciar">Restart</button>
 
             <img src="img/mario1.png" class="img-mario img-mario1">
             <img src="img/mario2.png" class="img-mario img-mario2">
